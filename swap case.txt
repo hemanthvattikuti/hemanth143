@@ -1,0 +1,7 @@
+def change(a):
+    if str.islower(a):
+        return str.upper(a)
+    else:
+        return str.lower(a)
+def swap_case(s):
+     return''.join(map(change,s))
